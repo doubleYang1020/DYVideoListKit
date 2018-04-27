@@ -18,7 +18,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'DYVideoListKit'
 ```
-
+## Caution
+your podfile should comment out use_frameworks!
+```ruby
+#use_frameworks!
+```
 ## Author
 
 阳眼的熊： 237505990@qq.com
