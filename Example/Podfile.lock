@@ -1,0 +1,16 @@
+PODS:
+  - DYVideoListKit (0.1.0)
+
+DEPENDENCIES:
+  - DYVideoListKit (from `../`)
+
+EXTERNAL SOURCES:
+  DYVideoListKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYVideoListKit: cdb019585de09fbf7d06955837b1dbc31a8a9879
+
+PODFILE CHECKSUM: 6aafc91b3cf8c38685afea59e31c7023905d5bec
+
+COCOAPODS: 1.5.0

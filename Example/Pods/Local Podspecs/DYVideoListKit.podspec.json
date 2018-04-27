@@ -1,0 +1,22 @@
+{
+  "name": "DYVideoListKit",
+  "version": "0.1.0",
+  "summary": "A short description of DYVideoListKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/237505990@qq.com/DYVideoListKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "237505990@qq.com": "237505990@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/237505990@qq.com/DYVideoListKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DYVideoListKit/Classes/**/*"
+}
