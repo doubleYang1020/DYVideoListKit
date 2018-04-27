@@ -22,7 +22,7 @@ pod 'DYVideoListKit'
 
 ## Author
 
-237505990@qq.com, 237505990@qq.com
+阳眼的熊： 237505990@qq.com
 
 ## License
 
