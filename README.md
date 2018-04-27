@@ -1,6 +1,5 @@
 # DYVideoListKit
 
-[![CI Status](https://img.shields.io/travis/237505990@qq.com/DYVideoListKit.svg?style=flat)](https://travis-ci.org/237505990@qq.com/DYVideoListKit)
 [![Version](https://img.shields.io/cocoapods/v/DYVideoListKit.svg?style=flat)](https://cocoapods.org/pods/DYVideoListKit)
 [![License](https://img.shields.io/cocoapods/l/DYVideoListKit.svg?style=flat)](https://cocoapods.org/pods/DYVideoListKit)
 [![Platform](https://img.shields.io/cocoapods/p/DYVideoListKit.svg?style=flat)](https://cocoapods.org/pods/DYVideoListKit)
