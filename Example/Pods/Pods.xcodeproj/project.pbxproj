@@ -12,11 +12,12 @@
 		17D12B4F35CCA127111AD46C962BBB21 /* Pods-DYVideoListKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A1F4A2C620E98E8116739AB58EC86 /* Pods-DYVideoListKit_Example-dummy.m */; };
 		43A2484AFC3CB527AD40602F9805A6A1 /* DYVideoListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BB02170AB95D0375837027A033362F /* DYVideoListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AEC7B04089AD020CA353856D44B9169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4CB6D85D2D9340D968612C092CEB00BC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D857F1B901C98556AB43E6896D008A0C /* ReplaceMe.m */; };
 		54D8359E8443F2551A1245231D46F9B2 /* Pods-DYVideoListKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0EB9F180926B4514666ABB7597465B /* Pods-DYVideoListKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64445588DDD4DC311DAED93BFA1D690C /* Pods-DYVideoListKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D542F7F50014D81E921751BDCB558 /* Pods-DYVideoListKit_Tests-dummy.m */; };
 		6A034F0EBA2FA53DD1E5D177067B589E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8FA92C268232F082AABACB080B5B6140 /* Pods-DYVideoListKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FF2A5A6BE00B477D5D2C102C4A1ADF /* Pods-DYVideoListKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6459F472373B196005AD908 /* DYVideoListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B6459F452373B196005AD908 /* DYVideoListKit.h */; };
+		B6459F482373B196005AD908 /* DYVideoListKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B6459F462373B196005AD908 /* DYVideoListKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,19 +40,19 @@
 /* Begin PBXFileReference section */
 		04B388E632FE31D38BA39865EFE17329 /* Pods-DYVideoListKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYVideoListKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		062F71AB639790C49647AC0F4C3223A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09B274A63AA3383AC297B793D56102C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		09B274A63AA3383AC297B793D56102C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0E2D542F7F50014D81E921751BDCB558 /* Pods-DYVideoListKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYVideoListKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		0E7D8A19129AE2B34C41F9C9983C50C5 /* Pods_DYVideoListKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYVideoListKit_Tests.framework; path = "Pods-DYVideoListKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E7D8A19129AE2B34C41F9C9983C50C5 /* Pods_DYVideoListKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYVideoListKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F1F07672D0E775707F1C1A2CA1E8AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA6CF9BC87C064D72036F77F95B1A95 /* DYVideoListKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYVideoListKit.xcconfig; sourceTree = "<group>"; };
 		254A1F4A2C620E98E8116739AB58EC86 /* Pods-DYVideoListKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYVideoListKit_Example-dummy.m"; sourceTree = "<group>"; };
 		38FF2A5A6BE00B477D5D2C102C4A1ADF /* Pods-DYVideoListKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYVideoListKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		428B95A58E8190E546FC6B31BF2CBDEE /* DYVideoListKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DYVideoListKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		428B95A58E8190E546FC6B31BF2CBDEE /* DYVideoListKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DYVideoListKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47A251B695FA4B003D0389CF28934026 /* DYVideoListKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYVideoListKit-dummy.m"; sourceTree = "<group>"; };
 		492059CAB8924D2FFC834F71E55E8809 /* Pods-DYVideoListKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYVideoListKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4AB4DC8C8D142A4944B4450F1AC46195 /* DYVideoListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYVideoListKit.framework; path = DYVideoListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AB482920FD3F5F78A456F4E929A1B3 /* Pods_DYVideoListKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYVideoListKit_Example.framework; path = "Pods-DYVideoListKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56F0C02C24532F73137AE964FC20CEB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4AB4DC8C8D142A4944B4450F1AC46195 /* DYVideoListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYVideoListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AB482920FD3F5F78A456F4E929A1B3 /* Pods_DYVideoListKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYVideoListKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0C02C24532F73137AE964FC20CEB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		59BB02170AB95D0375837027A033362F /* DYVideoListKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYVideoListKit-umbrella.h"; sourceTree = "<group>"; };
 		608AC59401D0BC2ED7260E22AAE61397 /* Pods-DYVideoListKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYVideoListKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,14 +61,15 @@
 		72A1BFAD4DE8C7E9841DBCD68FE636E2 /* DYVideoListKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYVideoListKit-prefix.pch"; sourceTree = "<group>"; };
 		7F9A6FCDC755178712DBF0348D00D450 /* Pods-DYVideoListKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYVideoListKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90F881AD9B68DC9FFFEE52AA4F8C73B4 /* Pods-DYVideoListKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYVideoListKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0EB9F180926B4514666ABB7597465B /* Pods-DYVideoListKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYVideoListKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A98742D58352FD7F81E6CEEADC8C2652 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B35875EF0BC4A416238CC978F4B9FD45 /* Pods-DYVideoListKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYVideoListKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6459F452373B196005AD908 /* DYVideoListKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DYVideoListKit.h; path = DYVideoListKit/Classes/DYVideoListKit.h; sourceTree = "<group>"; };
+		B6459F462373B196005AD908 /* DYVideoListKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DYVideoListKit.m; path = DYVideoListKit/Classes/DYVideoListKit.m; sourceTree = "<group>"; };
 		BA20B34441AB72429A6B1364844B263A /* Pods-DYVideoListKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYVideoListKit_Example.modulemap"; sourceTree = "<group>"; };
 		CA43C7A9F1FE48476075D48517238648 /* Pods-DYVideoListKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYVideoListKit_Tests.modulemap"; sourceTree = "<group>"; };
 		D0FFB3B5DCB4178688CD598605911A02 /* Pods-DYVideoListKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYVideoListKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D857F1B901C98556AB43E6896D008A0C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DYVideoListKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E03578B927E9CF4C91698C1FF2B65797 /* Pods-DYVideoListKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYVideoListKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFBA4E3B30216297BC25178A30F2E5CE /* Pods-DYVideoListKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYVideoListKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F0160E727D7EC2D479567413647A0140 /* Pods-DYVideoListKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYVideoListKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -209,9 +211,10 @@
 		EF135732970363A244C87483CF1138FA /* DYVideoListKit */ = {
 			isa = PBXGroup;
 			children = (
-				D857F1B901C98556AB43E6896D008A0C /* ReplaceMe.m */,
 				DE282DAFA7F83E1DE1CBB2B91E64175E /* Pod */,
 				4E087634CD5E856909273C8068C42F8C /* Support Files */,
+				B6459F452373B196005AD908 /* DYVideoListKit.h */,
+				B6459F462373B196005AD908 /* DYVideoListKit.m */,
 			);
 			name = DYVideoListKit;
 			path = ../..;
@@ -250,6 +253,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6459F472373B196005AD908 /* DYVideoListKit.h in Headers */,
 				43A2484AFC3CB527AD40602F9805A6A1 /* DYVideoListKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +328,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -360,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052DAF5FF52240AEF6ABE255380E356A /* DYVideoListKit-dummy.m in Sources */,
-				4CB6D85D2D9340D968612C092CEB00BC /* ReplaceMe.m in Sources */,
+				B6459F482373B196005AD908 /* DYVideoListKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +405,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/DYVideoListKit/DYVideoListKit.modulemap";
 				PRODUCT_MODULE_NAME = DYVideoListKit;
 				PRODUCT_NAME = DYVideoListKit;
@@ -651,6 +657,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				MODULEMAP_FILE = "Target Support Files/DYVideoListKit/DYVideoListKit.modulemap";
 				PRODUCT_MODULE_NAME = DYVideoListKit;
 				PRODUCT_NAME = DYVideoListKit;
