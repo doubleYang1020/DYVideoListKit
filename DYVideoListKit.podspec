@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYVideoListKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'video list Like TikTok/instagram.'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/doubleYang1020/DYVideoListKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'DYVideoListKit/Classes/**/*'
-  s.dependency 'KSYMediaPlayer_iOS'
+#  s.dependency 'KSYMediaPlayer_iOS'
   # s.resource_bundles = {
   #   'DYVideoListKit' => ['DYVideoListKit/Assets/*.png']
   # }
